@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "728955277768",
+    "project_id": "agrimentorinnogeeks",
+    "storage_bucket": "agrimentorinnogeeks.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728955277768:android:7a258ba55c9023539cf0fd",
+        "android_client_info": {
+          "package_name": "com.example.agrimentor_innogeeks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsW6oGTluB08_br2JUyU2Lu2y-3IWXoGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
