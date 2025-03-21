@@ -39,6 +39,11 @@ android {
         viewBinding = true
     }
 }
+buildscript {
+    dependencies {
+        classpath (libs.google.services)
+    }
+}
 
 dependencies {
 
@@ -48,10 +53,14 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore.ktx)
+    implementation(libs.firebase.storage.ktx)
     testImplementation(libs.junit)
-    implementation(libs.firebase.bom)
+    implementation(platform(libs.firebase.bom))
+    implementation (libs.firebase.analytics)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation (libs.lottie)
     implementation (libs.circleimageview)
+    implementation (libs.glide)
 }

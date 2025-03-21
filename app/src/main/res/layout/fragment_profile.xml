@@ -8,6 +8,18 @@
         tools:context=".Profile"
         android:nestedScrollingEnabled="true">
 
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <!-- Header with curved bottom -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/profileHeader"
@@ -279,5 +291,19 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Add this after the logout button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/devOptionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer Options"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:backgroundTint="#FF5722"
+        app:layout_constraintTop_toBottomOf="@id/logoutButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

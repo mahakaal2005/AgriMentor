@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.airbnb.lottie.LottieAnimationView
 import com.example.agrimentor_innogeeks.databinding.ActivityMainBinding
 import com.google.firebase.Firebase
+import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.FirebaseAuthInvalidUserException
@@ -30,6 +31,9 @@ class MainActivity : AppCompatActivity() {
             super.onCreate(savedInstanceState)
 
             setContentView(binding.root)
+
+            // Initialize Firebase
+            FirebaseApp.initializeApp(this)
 
             // Initialize Firebase Auth
             auth = FirebaseAuth.getInstance()
