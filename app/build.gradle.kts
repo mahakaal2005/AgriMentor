@@ -63,4 +63,6 @@ dependencies {
     implementation (libs.lottie)
     implementation (libs.circleimageview)
     implementation (libs.glide)
+    implementation (libs.okhttp)
+    implementation(libs.json.json)
 }
