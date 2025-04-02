@@ -49,7 +49,6 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth)
@@ -65,4 +64,9 @@ dependencies {
     implementation (libs.glide)
     implementation (libs.okhttp)
     implementation(libs.json.json)
+    implementation (libs.play.services.location)
+    implementation (libs.material.v1120)
+    implementation (libs.play.services.maps)
+    implementation (libs.android.maps.utils)
+    implementation (libs.picasso)
 }

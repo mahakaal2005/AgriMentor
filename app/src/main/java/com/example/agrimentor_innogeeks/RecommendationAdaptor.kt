@@ -14,7 +14,7 @@ class RecommendationAdapter(
     private val onItemClick: (Recommendation) -> Unit
 ) : RecyclerView.Adapter<RecommendationAdapter.RecommendationViewHolder>() {
 
-    class RecommendationViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+    inner class RecommendationViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val image: ImageView = view.findViewById(R.id.recommendationImage)
         val title: TextView = view.findViewById(R.id.recommendationTitle)
         val description: TextView = view.findViewById(R.id.recommendationDescription)

@@ -1,0 +1,88 @@
+<!-- Pollen Icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Light blue circular background -->
+    <path
+        android:fillColor="#FFBBDEFB"
+        android:pathData="M12,12m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillAlpha="0.5" />
+
+    <!-- Central stalk with rounded top -->
+    <path
+        android:pathData="M12,20L12,10"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FF81C784"
+        android:strokeLineCap="round" />
+
+    <!-- Radiating lines from the top of the stalk -->
+    <path
+        android:pathData="M12,10L9,7"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF81C784"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M12,10L15,7"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF81C784"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M12,10L8.5,8.5"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF81C784"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M12,10L15.5,8.5"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF81C784"
+        android:strokeLineCap="round" />
+
+    <!-- White outline for the stem and radiating lines -->
+    <path
+        android:pathData="M12,20L12,10"
+        android:strokeWidth="2.8"
+        android:strokeColor="#FFECEFF1"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.6" />
+    <path
+        android:pathData="M12,10L9,7"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFECEFF1"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.6" />
+    <path
+        android:pathData="M12,10L15,7"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFECEFF1"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.6" />
+    <path
+        android:pathData="M12,10L8.5,8.5"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFECEFF1"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.6" />
+    <path
+        android:pathData="M12,10L15.5,8.5"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFECEFF1"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.6" />
+
+    <!-- Pollen particles floating away -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M16.5,10m-0.9,0a0.9,0.9 0,1 1,1.8 0a0.9,0.9 0,1 1,-1.8 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M18.5,8.5m-0.7,0a0.7,0.7 0,1 1,1.4 0a0.7,0.7 0,1 1,-1.4 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M18,12m-0.6,0a0.6,0.6 0,1 1,1.2 0a0.6,0.6 0,1 1,-1.2 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M20,10m-0.5,0a0.5,0.5 0,1 1,1 0a0.5,0.5 0,1 1,-1 0" />
+</vector>

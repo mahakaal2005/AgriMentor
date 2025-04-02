@@ -192,7 +192,7 @@
                     android:layout_height="90dp"
                     android:layout_gravity="center_vertical"
                     android:contentDescription="Weather condition icon"
-                    android:src="@drawable/weather_sunny" />
+                    android:src="@drawable/sun_icon" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
        <!-- Crop Calendar Card -->
@@ -366,6 +366,7 @@
             app:layout_constraintTop_toBottomOf="@id/recommendationsHeaderLayout" />
 
         <!-- Tips Section with enhanced card design -->
+        <!-- Tips Section with enhanced card design -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/tipsCard"
             android:layout_width="match_parent"
@@ -404,32 +405,30 @@
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
                         android:fontFamily="sans-serif-medium" />
-
-
-                    <TextView
-                        android:id="@+id/tipContentTextView"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Rotating your crops helps prevent soil-borne diseases and pest problems. Follow a three-year rotation plan for best results."
-                        android:textColor="#616161"
-                        android:lineSpacingExtra="4dp"
-                        android:textSize="15sp"
-                        android:fontFamily="sans-serif" />
-
-                    <com.google.android.material.button.MaterialButton
-                        android:id="@+id/shareButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="Share Tip"
-                        android:textSize="12sp"
-                        android:textColor="#4CAF50"
-                        app:icon="@drawable/agriculture"
-                        app:iconTint="#4CAF50"
-                        style="@style/Widget.MaterialComponents.Button.TextButton"
-                        android:layout_gravity="end" />
                 </LinearLayout>
+                <TextView
+                    android:id="@+id/tipContentTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Rotating your crops helps prevent soil-borne diseases and pest problems. Follow a three-year rotation plan for best results."
+                    android:textColor="#616161"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/shareButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Share Tip"
+                    android:textSize="12sp"
+                    android:textColor="#4CAF50"
+                    app:icon="@drawable/agriculture"
+                    app:iconTint="#4CAF50"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_gravity="end" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -450,9 +449,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="16dp">
-            </LinearLayout>
-
-
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -479,7 +475,9 @@
                     android:textColor="@android:color/white"
                     android:backgroundTint="#4CAF50"
                     app:cornerRadius="8dp" />
-    </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <!-- Community Section -->
 
     <!-- Educational Resources Section -->
     <com.google.android.material.card.MaterialCardView

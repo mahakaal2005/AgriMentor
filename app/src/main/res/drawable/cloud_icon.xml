@@ -1,0 +1,18 @@
+<!-- Cloud Icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFECEFF1"
+        android:pathData="M6.5,18.5C4.01,18.5 2,16.49 2,14C2,11.51 4.01,9.5 6.5,9.5C6.77,9.5 7.04,9.53 7.29,9.57C8.07,7.45 10.17,6 12.5,6C15.26,6 17.5,8.24 17.5,11C17.5,11.17 17.49,11.34 17.46,11.5H18.5C20.43,11.5 22,13.07 22,15C22,16.93 20.43,18.5 18.5,18.5H6.5Z"
+        android:fillAlpha="0.9" />
+    <path
+        android:fillColor="#FFCFD8DC"
+        android:pathData="M6.5,18.5C4.01,18.5 2,16.49 2,14C2,11.51 4.01,9.5 6.5,9.5C6.77,9.5 7.04,9.53 7.29,9.57C8.07,7.45 10.17,6 12.5,6C15.26,6 17.5,8.24 17.5,11C17.5,11.17 17.49,11.34 17.46,11.5H18.5C20.43,11.5 22,13.07 22,15C22,16.93 20.43,18.5 18.5,18.5H6.5Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFCFD8DC"
+        android:strokeLineCap="round"
+        android:fillAlpha="0.5" />
+</vector>

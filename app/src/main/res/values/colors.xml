@@ -3,4 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="teal_700">#FF008080</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="colorDarkRed">#D32F2F</color>
+    <color name="weather_text_primary">@color/black</color>
+    <color name="weather_text_secondary">#757575</color>
+    <color name="weather_card_background">#FFFFFF</color>
+    <color name="progress_track_color">#E0E0E0</color>
 </resources>
