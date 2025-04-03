@@ -207,75 +207,45 @@
             app:strokeColor="#E0E0E0"
             app:layout_constraintTop_toBottomOf="@id/weatherCard">
 
-            <LinearLayout
-                android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/cropCalendarTitle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:text="Seasonal Planting Guide"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-medium" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Seasonal Planting Guide"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
-                    android:fontFamily="sans-serif-medium" />
+            <TextView
+                android:id="@+id/cropCalendarSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Best crops to plant this month"
+                android:textColor="#757575"
+                android:textSize="14sp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:text="Best crops to plant this month"
-                    android:textColor="#757575"
-                    android:textSize="14sp" />
-
-                <HorizontalScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:scrollbars="none">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <!-- Replace with actual crop guide items -->
-                        <TextView
-                            android:layout_width="120dp"
-                            android:layout_height="150dp"
-                            android:layout_marginEnd="12dp"
-                            android:gravity="center"
-                            android:background="#F5F5F5"
-                            android:text="Crop Guide 1" />
-
-                        <TextView
-                            android:layout_width="120dp"
-                            android:layout_height="150dp"
-                            android:layout_marginEnd="12dp"
-                            android:gravity="center"
-                            android:background="#F5F5F5"
-                            android:text="Crop Guide 2" />
-
-                        <TextView
-                            android:layout_width="120dp"
-                            android:layout_height="150dp"
-                            android:layout_marginEnd="12dp"
-                            android:gravity="center"
-                            android:background="#F5F5F5"
-                            android:text="Crop Guide 3" />
-
-                        <TextView
-                            android:layout_width="120dp"
-                            android:layout_height="150dp"
-                            android:gravity="center"
-                            android:background="#F5F5F5"
-                            android:text="Crop Guide 4" />
-                    </LinearLayout>
-                </HorizontalScrollView>
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-
-        <!-- Market Trends Section -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/cropsRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="12dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:scrollbars="none"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="4"
+                tools:listitem="@layout/item_crop" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/marketTrendsCard"
             android:layout_width="match_parent"

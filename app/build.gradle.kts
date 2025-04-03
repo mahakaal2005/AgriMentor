@@ -69,4 +69,7 @@ dependencies {
     implementation (libs.play.services.maps)
     implementation (libs.android.maps.utils)
     implementation (libs.picasso)
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.logging.interceptor)
 }
