@@ -11,4 +11,9 @@
         <item>Wind Speed</item>
     </string-array>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="market_trends_title">Market Trends</string>
+    <string name="market_trends_subtitle">Latest crop prices and forecasts</string>
+    <string name="error_loading_market_trends">Failed to load market trends</string>
+    <string name="retry">Retry</string>
+    <string name="no_market_data">No market data available</string>
 </resources>
